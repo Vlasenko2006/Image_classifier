@@ -1,33 +1,6 @@
 # Image_classifier
 
 
-## Script
-
-
-## Clone the code
-
-Run in the terminal either:
-
-`git@github.com:Vlasenko2006/Image_classifier.git`
-
-or 
-
-`https://github.com/Vlasenko2006/Image_classifier.git`
-
-Congrats! You've downloaded the code. 
-
-## How to install 
-
-### Install the Environment
-
-Open your terminal or Anaconda Prompt, navigate to the directory containing env.yaml, and execute:
-`conda env create -f env.yaml`
-you will create a "myenv" that contains all necessary packages. If you whant to name it differntly, change the environment name in the `env.yaml` file.
-
-After you installed the script you can process your images. 
-
-## How the code works
-
 # Image Sorting Script: Overview and Functionality
 
 This script processes a set of images and assigns integer-based similarity scores based on user-specified patterns and antipatterns. It also allows the user to exclude images matching certain criteria (antipatterns). Below is a detailed explanation of the script's components and workflow.
@@ -98,9 +71,9 @@ This script processes a set of images and assigns integer-based similarity score
    Allows users to select patterns or antipatterns interactively.
 
 2. **Similarity Metrics**:
-   - **SSIM**: Calculates structural similarity.
-   - **MSE**: Calculates mean squared error between image patches.
-   - **FFT**: Provides a frequency-domain representation of images.
+   - **SSIM**: Calculates structural similarity (coded, but not implemented yet).
+   - **MSE**: Calculates mean squared error between image patches (set by default).
+   - **FFT**: Provides a frequency-domain representation of images (coded, but not implemented yet).
 
 3. **Sorting Mechanism**:
    - Images are scored based on their similarity to patterns and antipatterns.
@@ -114,4 +87,29 @@ This script processes a set of images and assigns integer-based similarity score
   - Renamed as `1.jpg`, `2.jpg`, etc.
 - Images matching the antipattern:
   - Renamed with high integers or excluded altogether.
+
+# How to install 
+
+## 1. Clone the code
+
+Run in the terminal either:
+
+`git@github.com:Vlasenko2006/Image_classifier.git`
+
+or 
+
+`https://github.com/Vlasenko2006/Image_classifier.git`
+
+Congrats! You've downloaded the code. 
+
+
+
+### 2. Install the Environment
+
+Open your terminal or Anaconda Prompt, navigate to the directory containing env.yaml, and execute:
+`conda env create -f env.yaml`
+you will create a "myenv" that contains all necessary packages. If you whant to name it differntly, change the environment name in the `env.yaml` file.
+
+After you installed the script you can process your images running the comand int bash shell `python Image_classifier.py`  or run the file `Image_classifier.py` in the python IDE tool.
+
 
