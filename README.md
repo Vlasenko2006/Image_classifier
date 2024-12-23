@@ -1,6 +1,8 @@
 # Image Sorting Script: Overview and Functionality
 
-This script processes a set of images and assigns integer-based similarity scores based on user-specified patterns and antipatterns. It also allows the user to exclude images matching certain criteria (antipatterns). Below is a detailed explanation of the script's components and workflow.
+
+This script offers an efficient and customizable way to organize images based on their similarity to user-defined patterns. By leveraging GUI tools and robust image processing algorithms, it provides a user-friendly interface for handling large datasets.
+The script processes a set of images and assigns integer-based similarity scores based on user-specified patterns and antipatterns. It also allows the user to exclude images matching certain criteria (antipatterns). Below is a detailed explanation of the script's components and workflow.
 
 ## Key Features
 
